@@ -1,8 +1,0 @@
-com\sophos\terpel\automation_terpel\AppTest.class
-com\sophos\terpel\automation_terpel\stepsdefinitions\Stepdefinition.class
-com\sophos\terpel\automation_terpel\userinterface\PageAboutUs.class
-com\sophos\terpel\automation_terpel\interactions\QuienesSomos.class
-com\sophos\terpel\automation_terpel\exceptions\NoFoundTextException.class
-com\sophos\terpel\automation_terpel\questions\QuestionGetVision.class
-com\sophos\terpel\automation_terpel\runners\TerpelRunner.class
-com\sophos\terpel\automation_terpel\userinterface\HomePage.class
