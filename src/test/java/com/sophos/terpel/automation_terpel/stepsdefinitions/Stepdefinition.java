@@ -23,25 +23,25 @@ public class Stepdefinition {
 
 	@Before
 	public void preconditions() {
-	//	setTheStage(new OnlineCast());
+		setTheStage(new OnlineCast());
 	}
 
 	@Dado("La aplicación de terpel y el usuario {string}")
 	public void la_aplicación_de_terpel(String nameActor) {
 
-	//	theActorCalled(nameActor);
-	//	theActorInTheSpotlight().wasAbleTo(Open.browserOn(new HomePage()));
+		theActorCalled(nameActor);
+		theActorInTheSpotlight().wasAbleTo(Open.browserOn(new HomePage()));
 	}
 
 	@Cuando("El usuario va la pestaña de quienes somos")
 	public void el_usuario_va_la_pestaña_de_quienes_somos() {
-	//	theActorInTheSpotlight().attemptsTo(QuienesSomos.ir(HomePage.QUIENES_SOMOS_LINK));
+		theActorInTheSpotlight().attemptsTo(QuienesSomos.ir(HomePage.QUIENES_SOMOS_LINK));
 	}
 
 	@Entonces("valida que la misión contenga {string}")
 	public void valida_que_la_misión_contenga(String text) {
-	//	theActorInTheSpotlight().should(seeThat(QuestionGetVision.getText(), containsString(text)).orComplainWith(
-	//			NoFoundTextException.class, "No se encontro el texto buscado contenido en el elemento en la página"));
+		theActorInTheSpotlight().should(seeThat(QuestionGetVision.getText(), containsString(text)).orComplainWith(
+				NoFoundTextException.class, "No se encontro el texto buscado contenido en el elemento en la página"));
 	}
 
 }
